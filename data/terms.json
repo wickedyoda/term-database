@@ -6,7 +6,7 @@
     "license": "CC-BY-SA-4.0",
     "created_at": "2026-10-22",
     "updated_at": "2026-10-23",
-    "total_terms": 51,
+    "total_terms": 80,
     "categories": [
       "networking",
       "security",
@@ -778,6 +778,383 @@
       "related": [],
       "sources": [
         "https://en.wikipedia.org/wiki/Version_control"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "osi-model",
+      "term": "OSI model",
+      "definition": "The Open Systems Interconnection (OSI) model is a reference model published in 1984 by the International Organization for Standardization (ISO) that \"provides a common basis for the coordination of standards development for the purpose of systems interconnection.\" In the OSI reference model, the…",
+      "category": "networking",
+      "subcategory": "framework",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/OSI_model"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "router",
+      "term": "Router (computing)",
+      "definition": "A router is a computer and networking device that forwards data packets between computer networks, including internetworks such as the global Internet.",
+      "category": "networking",
+      "subcategory": "networking device",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Router_%28computing%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "network-switch",
+      "term": "Network switch",
+      "definition": "A network switch (also called switching hub, bridging hub, Ethernet switch, and—by the IEEE—MAC bridge) is networking hardware that connects devices on a computer network by using packet switching to receive and forward data to the destination device.",
+      "category": "networking",
+      "subcategory": "networking device",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Network_switch"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "firewall",
+      "term": "Firewall (computing)",
+      "definition": "In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on configurable security rules.",
+      "category": "networking",
+      "subcategory": "security device",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Firewall_%28computing%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "media-access-control",
+      "term": "Media Access Control",
+      "definition": "In IEEE 802 LAN/MAN standards, the medium access control (MAC), also called media access control, is the layer that controls the hardware responsible for interaction with the wired (electrical or optical) or wireless transmission medium.",
+      "category": "networking",
+      "subcategory": "addressing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Media_Access_Control"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "latency",
+      "term": "Latency (engineering)",
+      "definition": "Latency, from a general point of view, is a time delay between the cause and the effect of some physical change in the system being observed.",
+      "category": "networking",
+      "subcategory": "performance",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latency_%28engineering%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "subnetting",
+      "term": "Subnetting",
+      "definition": "A subnet, or subnetwork, is a logical subdivision of an IP network.",
+      "category": "networking",
+      "subcategory": "addressing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Subnetting"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wireless-network",
+      "term": "Wireless network",
+      "definition": "A wireless network is a computer network that uses wireless data connections between network nodes.",
+      "category": "networking",
+      "subcategory": "networking",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wireless_network"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "intrusion-detection-system",
+      "term": "Intrusion detection system",
+      "definition": "An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations.",
+      "category": "security",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Intrusion_detection_system"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "intrusion-prevention-system",
+      "term": "Intrusion prevention system",
+      "definition": "An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations.",
+      "category": "security",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Intrusion_prevention_system"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "antivirus-software",
+      "term": "Antivirus software",
+      "definition": "Antivirus software (abbreviated to AV software), also known as anti-malware, is software intended to prevent, detect, and remove malware.",
+      "category": "security",
+      "subcategory": "endpoint",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Antivirus_software"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "oauth",
+      "term": "OAuth",
+      "definition": "OAuth (version 1: RFC-5849, version 2: RFC-6749; sometimes incorrectly extended to open authorization) is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the…",
+      "category": "security",
+      "subcategory": "framework",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/OAuth"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "saml",
+      "term": "SAML",
+      "definition": "Security Assertion Markup Language (SAML, pronounced SAM-el, ) is an open standard for exchanging authentication and authorization data between parties, in particular, between an identity provider and a service provider.",
+      "category": "security",
+      "subcategory": "standard",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SAML"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "certificate-authority",
+      "term": "Certificate authority",
+      "definition": "In cryptography, a certificate authority or certification authority (CA) is an entity that stores, signs, and issues digital certificates.",
+      "category": "security",
+      "subcategory": "identity",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Certificate_authority"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "digital-signature",
+      "term": "Digital signature",
+      "definition": "A digital signature is a mathematical scheme for verifying the authenticity of digital messages or documents.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Digital_signature"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "hash-function",
+      "term": "Hash function",
+      "definition": "A hash function is any function that can be used to map data of arbitrary size to fixed-size values, though there are some hash functions that support variable-length output.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hash_function"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "vulnerability",
+      "term": "Vulnerability (computing)",
+      "definition": "In computer security, a vulnerability is a flaw or weakness in a system's design, implementation, or management that can be exploited by a malicious actor to compromise its security.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vulnerability_%28computing%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "penetration-test",
+      "term": "Penetration test",
+      "definition": "A penetration test, colloquially known as a pentest, is an authorized simulated cyberattack on a computer system, performed live to evaluate the security of the system.",
+      "category": "security",
+      "subcategory": "testing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Penetration_test"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "security-information-and-event-management",
+      "term": "Security information and event management",
+      "definition": "Security information and event management (SIEM) is a field within computer security that combines security information management (SIM) and security event management (SEM) to enable real-time analysis of security alerts generated by applications and network hardware.",
+      "category": "security",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Security_information_and_event_management"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "threat-model",
+      "term": "Threat model",
+      "definition": "Threat modeling is a process by which potential threats, such as structural vulnerabilities or the absence of appropriate safeguards, can be identified and enumerated, and countermeasures or controls prioritized.",
+      "category": "security",
+      "subcategory": "process",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Threat_model"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "reverse-proxy",
+      "term": "Reverse proxy",
+      "definition": "In computer networks, a reverse proxy or surrogate server is a proxy server that appears to any client to be an ordinary web server, but in reality merely acts as an intermediary that forwards the client's requests to one or more ordinary web servers.",
+      "category": "infrastructure",
+      "subcategory": "networking",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reverse_proxy"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "content-delivery-network",
+      "term": "Content delivery network",
+      "definition": "A content delivery network (CDN) or content distribution network is a geographically distributed network of proxy servers and corresponding data centers.",
+      "category": "infrastructure",
+      "subcategory": "networking",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Content_delivery_network"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "api-gateway",
+      "term": "API gateway",
+      "definition": "API management is the process of creating and publishing web application programming interfaces (APIs), enforcing their usage policies, controlling access, nurturing the subscriber community, collecting and analyzing usage statistics, and reporting on performance.",
+      "category": "infrastructure",
+      "subcategory": "integration",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/API_gateway"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "serverless-computing",
+      "term": "Serverless computing",
+      "definition": "Serverless computing is \"a cloud service category where the customer can use different cloud capability types without the customer having to provision, deploy and manage either hardware or software resources, other than providing customer application code or providing customer data.",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Serverless_computing"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "microservices",
+      "term": "Microservices",
+      "definition": "In software engineering, a microservice architecture is an architectural pattern that organizes an application into a collection of loosely coupled, fine-grained services that communicate through lightweight protocols.",
+      "category": "infrastructure",
+      "subcategory": "architecture",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Microservices"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "sql",
+      "term": "SQL",
+      "definition": "Structured Query Language (SQL) (pronounced S-Q-L; or alternatively as \"sequel\") is a domain-specific language used to manage data, especially in a relational database management system (RDBMS).",
+      "category": "programming",
+      "subcategory": "database",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SQL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "nosql",
+      "term": "NoSQL",
+      "definition": "NoSQL (a colloquial title that became formal, meaning \"not only SQL\" or \"non-relational\") refers to a type of database design that stores and retrieves data differently from the traditional table-based structure of relational databases.",
+      "category": "programming",
+      "subcategory": "database",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NoSQL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "web-scraping",
+      "term": "Web scraping",
+      "definition": "Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites.",
+      "category": "programming",
+      "subcategory": "technique",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Web_scraping"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "algorithm",
+      "term": "Algorithm",
+      "definition": "In mathematics and computer science, an algorithm is any well-defined set of instructions that when followed terminates after a finite number of steps that comprise a solution to a given computational problem.",
+      "category": "programming",
+      "subcategory": "computer science",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Algorithm"
       ],
       "added_at": "2026-10-23"
     }
