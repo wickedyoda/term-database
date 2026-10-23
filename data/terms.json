@@ -6,7 +6,7 @@
     "license": "CC-BY-SA-4.0",
     "created_at": "2026-10-22",
     "updated_at": "2026-10-23",
-    "total_terms": 80,
+    "total_terms": 102,
     "categories": [
       "networking",
       "security",
@@ -1155,6 +1155,292 @@
       "related": [],
       "sources": [
         "https://en.wikipedia.org/wiki/Algorithm"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "ethernet",
+      "term": "Ethernet",
+      "definition": "Ethernet ( EE-thər-net) is a family of wired computer networking standards designed for (but not limited to) local area networks (LAN), access networks, and metropolitan area networks (MAN).",
+      "category": "networking",
+      "subcategory": "data link",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ethernet"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wi-fi",
+      "term": "Wi-Fi",
+      "definition": "Wi-Fi is a family of wireless network protocols based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access, allowing nearby digital devices to exchange data by radio waves.",
+      "category": "networking",
+      "subcategory": "wireless",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wi-Fi"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wireless-application-protocol",
+      "term": "Wireless Application Protocol",
+      "definition": "Wireless Application Protocol (WAP) is an obsolete technical standard for accessing information over a mobile cellular network.",
+      "category": "networking",
+      "subcategory": "mobile",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wireless_Application_Protocol"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "rsa",
+      "term": "RSA (cryptosystem)",
+      "definition": "The RSA (Rivest–Shamir–Adleman) cryptosystem is a family of public-key cryptosystems (one of the oldest), widely used for secure data transmission.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "sha-2",
+      "term": "SHA-2",
+      "definition": "SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designed by the United States National Security Agency (NSA) and first published in 2001.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SHA-2"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "json-web-token",
+      "term": "JSON Web Token",
+      "definition": "JSON Web Token (JWT, suggested pronunciation , same as the word \"jot\") is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims.",
+      "category": "security",
+      "subcategory": "standard",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/JSON_Web_Token"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "gnu-privacy-guard",
+      "term": "GNU Privacy Guard",
+      "definition": "GNU Privacy Guard (GnuPG or GPG) is a free-software replacement for Symantec's cryptographic software suite PGP.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "openssl",
+      "term": "OpenSSL",
+      "definition": "OpenSSL is a software library for applications that provide secure communications over computer networks against eavesdropping, and identify the party at the other end.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/OpenSSL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "nmap",
+      "term": "Nmap",
+      "definition": "Nmap (Network Mapper) is a network scanner created by Gordon Lyon (also known by his pseudonym Fyodor Vaskovich).",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nmap"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wireshark",
+      "term": "Wireshark",
+      "definition": "Wireshark is free and open-source packet analyzer software.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wireshark"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "snort",
+      "term": "Snort (software)",
+      "definition": "Snort is a network intrusion detection system (IDS) and intrusion prevention system (IPS) created in 1998 by Martin Roesch, founder and former CTO of Sourcefire.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Snort_%28software%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "server-side-request-forgery",
+      "term": "Server-side request forgery",
+      "definition": "Server-side request forgery (SSRF) is a computer security vulnerability that enables an attacker to send requests from a vulnerable server to internal or external systems or the server itself.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Server-side_request_forgery"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "arbitrary-code-execution",
+      "term": "Arbitrary code execution",
+      "definition": "In computer security, arbitrary code execution (ACE) is an attacker's ability to run any commands or code of the attacker's choice on a target machine or in a target process.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arbitrary_code_execution"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "privilege-escalation",
+      "term": "Privilege escalation",
+      "definition": "Privilege escalation is the act of exploiting a bug, a design flaw, or a configuration oversight in an operating system or software application to gain elevated access to resources that are normally protected from an application or user.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Privilege_escalation"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "distributed-denial-of-service-attack",
+      "term": "Distributed denial-of-service attack",
+      "definition": "In computing, a denial-of-service attack (DoS attack doss) is a cyberattack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network.",
+      "category": "security",
+      "subcategory": "threat",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Distributed_denial-of-service_attack"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "python",
+      "term": "Python (programming language)",
+      "definition": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Python_%28programming_language%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "javascript",
+      "term": "JavaScript",
+      "definition": "JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/JavaScript"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "git",
+      "term": "Git (software)",
+      "definition": "Git is a distributed version control software system that is capable of managing versions of source code or data.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Git_%28software%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "nginx",
+      "term": "Nginx",
+      "definition": "nginx (pronounced \"engine x\" EN-jin-EKS, stylized as NGINX) is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nginx"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "redis",
+      "term": "Redis",
+      "definition": "Redis (; Remote Dictionary Server) is an in-memory key–value database, used as a distributed cache and message broker, with optional durability.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Redis"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "postgresql",
+      "term": "PostgreSQL",
+      "definition": "PostgreSQL ( POHST-gres-kew-EL), also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/PostgreSQL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "api-key",
+      "term": "API key",
+      "definition": "An application programming interface (API) key is a secret unique identifier used to authenticate and authorize a user, developer, or calling program to an API.",
+      "category": "programming",
+      "subcategory": "credential",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/API_key"
       ],
       "added_at": "2026-10-23"
     }
