@@ -1,0 +1,51 @@
+name: Weekly Refresh
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # 06:00 UTC every Monday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run scraper refresh
+        run: python3 scripts/scrape_terms.py --refresh
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --exit-code; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto/refresh-definitions
+          delete-branch: true
+          title: "Auto: refresh term definitions from Wikipedia"
+          body: |
+            Automated weekly refresh of term definitions from Wikipedia sources.
+
+            - Definitions are updated to match current Wikipedia content
+            - Source URLs are verified
+          labels: automated, definitions
