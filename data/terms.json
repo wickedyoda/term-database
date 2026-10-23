@@ -1,0 +1,785 @@
+{
+  "metadata": {
+    "name": "Term Database",
+    "description": "A central database of IT, networking, and cybersecurity terms with definitions.",
+    "version": "1.0.0",
+    "license": "CC-BY-SA-4.0",
+    "created_at": "2026-10-22",
+    "updated_at": "2026-10-23",
+    "total_terms": 51,
+    "categories": [
+      "networking",
+      "security",
+      "infrastructure",
+      "programming",
+      "general"
+    ]
+  },
+  "terms": [
+    {
+      "id": "tcp",
+      "term": "TCP",
+      "definition": "Transmission Control Protocol — a connection-oriented, reliable transport protocol that provides flow control, ordering, and error correction.",
+      "category": "networking",
+      "subcategory": "transport",
+      "aliases": [
+        "Transmission Control Protocol"
+      ],
+      "related": [
+        "ip",
+        "udp",
+        "tls"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "ip",
+      "term": "IP",
+      "definition": "Internet Protocol — the principal communications protocol for relaying datagrams across network boundaries; provides addressing and routing.",
+      "category": "networking",
+      "subcategory": "internet-layer",
+      "aliases": [
+        "Internet Protocol",
+        "IPv4",
+        "IPv6"
+      ],
+      "related": [
+        "tcp",
+        "dns",
+        "routing"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "dns",
+      "term": "DNS",
+      "definition": "Domain Name System — a hierarchical, decentralised naming system that translates human-readable domain names into IP addresses.",
+      "category": "networking",
+      "subcategory": "application",
+      "aliases": [
+        "Domain Name System"
+      ],
+      "related": [
+        "ip",
+        "http",
+        "tls"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "http",
+      "term": "HTTP",
+      "definition": "HyperText Transfer Protocol — an application-layer protocol for transmitting hypermedia documents, the foundation of data communication on the Web.",
+      "category": "networking",
+      "subcategory": "application",
+      "aliases": [
+        "HyperText Transfer Protocol"
+      ],
+      "related": [
+        "https",
+        "dns",
+        "tcp"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "https",
+      "term": "HTTPS",
+      "definition": "HTTP Secure — HTTP over TLS/SSL, encrypting the communication channel between client and server.",
+      "category": "networking",
+      "subcategory": "application",
+      "aliases": [
+        "HTTP Secure",
+        "HTTP over TLS"
+      ],
+      "related": [
+        "http",
+        "tls"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "tls",
+      "term": "TLS",
+      "definition": "Transport Layer Security — a cryptographic protocol providing privacy and data integrity between communicating applications.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [
+        "Transport Layer Security",
+        "SSL"
+      ],
+      "related": [
+        "https",
+        "ssl",
+        "x509"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "xss",
+      "term": "XSS",
+      "definition": "Cross-Site Scripting — a client-side code injection attack where malicious scripts are injected into trusted websites.",
+      "category": "security",
+      "subcategory": "web",
+      "aliases": [
+        "Cross-Site Scripting"
+      ],
+      "related": [
+        "csrf",
+        "sql-injection",
+        "csp"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "sql-injection",
+      "term": "SQL Injection",
+      "definition": "A code injection technique that exploits a vulnerability in an application's database layer by inserting malicious SQL statements into an entry field.",
+      "category": "security",
+      "subcategory": "web",
+      "aliases": [
+        "SQLi"
+      ],
+      "related": [
+        "xss",
+        "injection"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "csrf",
+      "term": "CSRF",
+      "definition": "Cross-Site Request Forgery — an attack that tricks a user into performing actions they did not intend, exploiting the trust a site has in their browser.",
+      "category": "security",
+      "subcategory": "web",
+      "aliases": [
+        "Cross-Site Request Forgery",
+        "Sea Surf"
+      ],
+      "related": [
+        "xss",
+        "session-management"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "docker",
+      "term": "Docker",
+      "definition": "An open-source platform for developing, shipping, and running applications in lightweight, portable containers.",
+      "category": "infrastructure",
+      "subcategory": "containerisation",
+      "aliases": [],
+      "related": [
+        "kubernetes",
+        "container",
+        "oci"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "kubernetes",
+      "term": "Kubernetes",
+      "definition": "An open-source container orchestration platform for automating deployment, scaling, and management of containerised applications.",
+      "category": "infrastructure",
+      "subcategory": "orchestration",
+      "aliases": [
+        "k8s"
+      ],
+      "related": [
+        "docker",
+        "container",
+        "helm"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "api",
+      "term": "API",
+      "definition": "Application Programming Interface — a set of definitions and protocols for building and integrating application software.",
+      "category": "programming",
+      "subcategory": "general",
+      "aliases": [
+        "Application Programming Interface"
+      ],
+      "related": [
+        "rest",
+        "http",
+        "graphql"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "bgp",
+      "term": "BGP",
+      "definition": "Border Gateway Protocol — the exterior gateway protocol that exchanges routing information between autonomous systems on the Internet.",
+      "category": "networking",
+      "subcategory": "routing",
+      "aliases": [
+        "Border Gateway Protocol"
+      ],
+      "related": [
+        "ip"
+      ],
+      "sources": [],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "udp",
+      "term": "UDP",
+      "definition": "User Datagram Protocol — a connectionless transport protocol that provides fast, low-overhead communication without guaranteed delivery or ordering.",
+      "category": "networking",
+      "subcategory": "transport",
+      "aliases": [
+        "User Datagram Protocol"
+      ],
+      "related": [
+        "tcp",
+        "ip"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "ssl",
+      "term": "SSL",
+      "definition": "Secure Sockets Layer — the predecessor to TLS, a deprecated cryptographic protocol for securing communications over a network.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [
+        "Secure Sockets Layer"
+      ],
+      "related": [
+        "tls",
+        "https"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "x509",
+      "term": "X.509",
+      "definition": "A standard defining the format of public-key certificates used in TLS/SSL, code signing, and email security.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [
+        "X.509 certificate"
+      ],
+      "related": [
+        "tls",
+        "pki"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "pki",
+      "term": "PKI",
+      "definition": "Public Key Infrastructure — the framework of roles, policies, hardware, and software used to create, manage, distribute, use, store, and revoke digital certificates.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [
+        "Public Key Infrastructure"
+      ],
+      "related": [
+        "x509",
+        "tls"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "csp",
+      "term": "CSP",
+      "definition": "Content Security Policy — an HTTP header that lets site operators declare approved sources of content, mitigating XSS and data-injection attacks.",
+      "category": "security",
+      "subcategory": "web",
+      "aliases": [
+        "Content Security Policy"
+      ],
+      "related": [
+        "xss",
+        "https"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "injection",
+      "term": "Injection",
+      "definition": "A class of attack in which untrusted input is interpreted as code or commands by an interpreter (e.g. SQL, command, or LDAP injection).",
+      "category": "security",
+      "subcategory": "web",
+      "aliases": [],
+      "related": [
+        "sql-injection",
+        "xss"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "session-management",
+      "term": "Session Management",
+      "definition": "The process of securely maintaining and validating a user's authenticated state across requests, typically using session tokens or cookies.",
+      "category": "security",
+      "subcategory": "web",
+      "aliases": [],
+      "related": [
+        "csrf",
+        "authentication"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "authentication",
+      "term": "Authentication",
+      "definition": "The process of verifying the identity of a user, device, or system, distinct from authorisation which governs what they may do.",
+      "category": "security",
+      "subcategory": "identity",
+      "aliases": [
+        "AuthN"
+      ],
+      "related": [
+        "authorisation",
+        "mfa"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "authorisation",
+      "term": "Authorisation",
+      "definition": "The process of granting or denying a verified identity permission to access resources or perform actions.",
+      "category": "security",
+      "subcategory": "identity",
+      "aliases": [
+        "AuthZ"
+      ],
+      "related": [
+        "authentication",
+        "rbac"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "mfa",
+      "term": "MFA",
+      "definition": "Multi-Factor Authentication — an authentication method requiring two or more independent verification factors (something you know, have, or are).",
+      "category": "security",
+      "subcategory": "identity",
+      "aliases": [
+        "Multi-Factor Authentication",
+        "2FA"
+      ],
+      "related": [
+        "authentication",
+        "phishing"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "phishing",
+      "term": "Phishing",
+      "definition": "A social-engineering attack that uses deceptive messages to trick victims into revealing credentials, installing malware, or transferring funds.",
+      "category": "security",
+      "subcategory": "threats",
+      "aliases": [],
+      "related": [
+        "spear-phishing",
+        "mfa"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "container",
+      "term": "Container",
+      "definition": "A lightweight, standalone, executable package that bundles an application with its dependencies and runtime, isolated from the host via kernel namespaces and cgroups.",
+      "category": "infrastructure",
+      "subcategory": "containerisation",
+      "aliases": [],
+      "related": [
+        "docker",
+        "oci"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "oci",
+      "term": "OCI",
+      "definition": "Open Container Initiative — an open standard defining container image formats and runtime specifications.",
+      "category": "infrastructure",
+      "subcategory": "containerisation",
+      "aliases": [
+        "Open Container Initiative"
+      ],
+      "related": [
+        "docker",
+        "container"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "helm",
+      "term": "Helm",
+      "definition": "The package manager for Kubernetes, using charts to define, install, and upgrade complex Kubernetes applications.",
+      "category": "infrastructure",
+      "subcategory": "orchestration",
+      "aliases": [],
+      "related": [
+        "kubernetes"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "rest",
+      "term": "REST",
+      "definition": "Representational State Transfer — an architectural style for designing networked APIs using stateless HTTP methods and resource-oriented URIs.",
+      "category": "programming",
+      "subcategory": "api",
+      "aliases": [
+        "Representational State Transfer"
+      ],
+      "related": [
+        "api",
+        "http",
+        "graphql"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "graphql",
+      "term": "GraphQL",
+      "definition": "A query language and runtime for APIs that lets clients request exactly the data they need, reducing over- and under-fetching.",
+      "category": "programming",
+      "subcategory": "api",
+      "aliases": [],
+      "related": [
+        "api",
+        "rest"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "routing",
+      "term": "Routing",
+      "definition": "The process of selecting paths in a network along which to send network traffic, governed by routing protocols and forwarding tables.",
+      "category": "networking",
+      "subcategory": "internet-layer",
+      "aliases": [],
+      "related": [
+        "ip",
+        "bgp"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "spear-phishing",
+      "term": "Spear Phishing",
+      "definition": "A targeted phishing attack directed at a specific individual or organisation, using personalised content to increase success.",
+      "category": "security",
+      "subcategory": "threats",
+      "aliases": [],
+      "related": [
+        "phishing"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "rbac",
+      "term": "RBAC",
+      "definition": "Role-Based Access Control — an access-control model that grants permissions to roles, and roles to users, simplifying authorisation management.",
+      "category": "security",
+      "subcategory": "identity",
+      "aliases": [
+        "Role-Based Access Control"
+      ],
+      "related": [
+        "authorisation",
+        "iam"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "iam",
+      "term": "IAM",
+      "definition": "Identity and Access Management — the framework of policies and technologies that ensures the right individuals access the right resources at the right time.",
+      "category": "security",
+      "subcategory": "identity",
+      "aliases": [
+        "Identity and Access Management"
+      ],
+      "related": [
+        "rbac",
+        "mfa"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "zero-trust",
+      "term": "Zero Trust",
+      "definition": "A security model that requires continuous verification of every user and device, never trusting anything by default regardless of network location.",
+      "category": "security",
+      "subcategory": "architecture",
+      "aliases": [
+        "Zero Trust Architecture"
+      ],
+      "related": [
+        "mfa",
+        "iam"
+      ],
+      "sources": [],
+      "added_at": "2026-10-22"
+    },
+    {
+      "id": "open-shortest-path-first",
+      "term": "Open Shortest Path First",
+      "definition": "Open Shortest Path First (OSPF) is a routing protocol for Internet Protocol (IP) networks.",
+      "category": "networking",
+      "subcategory": "routing protocol",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Open_Shortest_Path_First"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "network-address-translation",
+      "term": "Network address translation",
+      "definition": "Network address translation (NAT) is a method of mapping an IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device.",
+      "category": "networking",
+      "subcategory": "networking concept",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Network_address_translation"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "virtual-private-network",
+      "term": "Virtual private network",
+      "definition": "A virtual private network (VPN) is an overlay network that uses network virtualization to extend a private network across a public network, such as the Internet, via the use of encryption and tunneling protocols.",
+      "category": "networking",
+      "subcategory": "networking concept",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Virtual_private_network"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "quality-of-service",
+      "term": "Quality of service",
+      "definition": "Quality of service (QoS) is the description or measurement of the overall performance of a service, such as a telephony or computer network, or a cloud computing service, particularly the performance seen by the users of the network.",
+      "category": "networking",
+      "subcategory": "networking concept",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Quality_of_service"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "malware",
+      "term": "Malware",
+      "definition": "Malware (a portmanteau of malicious software) is any software intentionally designed to cause disruption or destruction to a computer, server, client, or computer network, leak private information, gain unauthorized access to information or systems, deprive access to information, or interfere with…",
+      "category": "security",
+      "subcategory": "threat",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Malware"
+      ],
+      "added_at": "2026-10-23",
+      "updated_at": "2026-10-23"
+    },
+    {
+      "id": "ransomware",
+      "term": "Ransomware",
+      "definition": "Ransomware is a type of malware that takes the private data of a victim hostage until a ransom is paid.",
+      "category": "security",
+      "subcategory": "threat",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ransomware"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "denial-of-service-attack",
+      "term": "Denial-of-service attack",
+      "definition": "In computing, a denial-of-service attack (DoS attack doss) is a cyberattack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network.",
+      "category": "security",
+      "subcategory": "threat",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Denial-of-service_attack"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "man-in-the-middle-attack",
+      "term": "Man-in-the-middle attack",
+      "definition": "In cryptography and computer security, a man-in-the-middle (MITM) attack, or on-path attack, is a cyberattack where the attacker secretly relays and possibly alters the communications between two parties who believe that they are directly communicating with each other, where in actuality the…",
+      "category": "security",
+      "subcategory": "threat",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Man-in-the-middle_attack"
+      ],
+      "added_at": "2026-10-23",
+      "updated_at": "2026-10-23"
+    },
+    {
+      "id": "zero-day",
+      "term": "Zero-day (computing)",
+      "definition": "A zero-day (also known as a 0-day) is a vulnerability or security hole in a computer system unknown to its developers or anyone capable of mitigating it.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zero-day_%28computing%29"
+      ],
+      "added_at": "2026-10-23",
+      "updated_at": "2026-10-23"
+    },
+    {
+      "id": "encryption",
+      "term": "Encryption",
+      "definition": "In cryptography, encryption is the process of transforming information in a way that, ideally, only authorized parties can decode.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Encryption"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "cloud-computing",
+      "term": "Cloud computing",
+      "definition": "Cloud computing is defined by the International Organization for Standardization (ISO) as \"a paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with self-service provisioning and administration on demand\".",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cloud_computing"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "containerization",
+      "term": "Containerization",
+      "definition": "Containerization, also referred as container stuffing or container loading, is a system of intermodal freight transport using intermodal containers.",
+      "category": "infrastructure",
+      "subcategory": "containerisation",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Containerization"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "infrastructure-as-code",
+      "term": "Infrastructure as code",
+      "definition": "Infrastructure as code (IaC) is the process of managing and provisioning computer data center resources through machine-readable definition files, rather than via physical hardware configuration or interactive configuration tools.",
+      "category": "infrastructure",
+      "subcategory": "provisioning",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Infrastructure_as_code"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "load-balancing",
+      "term": "Load balancing (computing)",
+      "definition": "In computing, load balancing is the process of distributing a set of tasks over a set of resources (computing units) with the aim of making their overall processing more efficient.",
+      "category": "infrastructure",
+      "subcategory": "networking",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Load_balancing_%28computing%29"
+      ],
+      "added_at": "2026-10-23",
+      "updated_at": "2026-10-23"
+    },
+    {
+      "id": "json",
+      "term": "JSON",
+      "definition": "JSON (JavaScript Object Notation) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of name–value pairs and arrays (or other serializable values).",
+      "category": "programming",
+      "subcategory": "data format",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/JSON"
+      ],
+      "added_at": "2026-10-23",
+      "updated_at": "2026-10-23"
+    },
+    {
+      "id": "regular-expression",
+      "term": "Regular expression",
+      "definition": "A regular expression (shortened as regex or regexp), sometimes referred to as a rational expression, is a sequence of characters that specifies a match pattern in text.",
+      "category": "programming",
+      "subcategory": "data format",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Regular_expression"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "version-control",
+      "term": "Version control",
+      "definition": "Version control (also known as revision control, source control, and source code management) is the software engineering practice of controlling, organizing, and tracking different versions in history of computer files – primarily source code text files, but generally any type of file.",
+      "category": "programming",
+      "subcategory": "tooling",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Version_control"
+      ],
+      "added_at": "2026-10-23"
+    }
+  ]
+}
