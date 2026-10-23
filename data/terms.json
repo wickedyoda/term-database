@@ -6,7 +6,7 @@
     "license": "CC-BY-SA-4.0",
     "created_at": "2026-10-22",
     "updated_at": "2026-10-23",
-    "total_terms": 51,
+    "total_terms": 140,
     "categories": [
       "networking",
       "security",
@@ -778,6 +778,1171 @@
       "related": [],
       "sources": [
         "https://en.wikipedia.org/wiki/Version_control"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "osi-model",
+      "term": "OSI model",
+      "definition": "The Open Systems Interconnection (OSI) model is a reference model published in 1984 by the International Organization for Standardization (ISO) that \"provides a common basis for the coordination of standards development for the purpose of systems interconnection.\" In the OSI reference model, the…",
+      "category": "networking",
+      "subcategory": "framework",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/OSI_model"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "router",
+      "term": "Router (computing)",
+      "definition": "A router is a computer and networking device that forwards data packets between computer networks, including internetworks such as the global Internet.",
+      "category": "networking",
+      "subcategory": "networking device",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Router_%28computing%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "network-switch",
+      "term": "Network switch",
+      "definition": "A network switch (also called switching hub, bridging hub, Ethernet switch, and—by the IEEE—MAC bridge) is networking hardware that connects devices on a computer network by using packet switching to receive and forward data to the destination device.",
+      "category": "networking",
+      "subcategory": "networking device",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Network_switch"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "firewall",
+      "term": "Firewall (computing)",
+      "definition": "In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on configurable security rules.",
+      "category": "networking",
+      "subcategory": "security device",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Firewall_%28computing%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "media-access-control",
+      "term": "Media Access Control",
+      "definition": "In IEEE 802 LAN/MAN standards, the medium access control (MAC), also called media access control, is the layer that controls the hardware responsible for interaction with the wired (electrical or optical) or wireless transmission medium.",
+      "category": "networking",
+      "subcategory": "addressing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Media_Access_Control"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "latency",
+      "term": "Latency (engineering)",
+      "definition": "Latency, from a general point of view, is a time delay between the cause and the effect of some physical change in the system being observed.",
+      "category": "networking",
+      "subcategory": "performance",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latency_%28engineering%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "subnetting",
+      "term": "Subnetting",
+      "definition": "A subnet, or subnetwork, is a logical subdivision of an IP network.",
+      "category": "networking",
+      "subcategory": "addressing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Subnetting"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wireless-network",
+      "term": "Wireless network",
+      "definition": "A wireless network is a computer network that uses wireless data connections between network nodes.",
+      "category": "networking",
+      "subcategory": "networking",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wireless_network"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "intrusion-detection-system",
+      "term": "Intrusion detection system",
+      "definition": "An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations.",
+      "category": "security",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Intrusion_detection_system"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "intrusion-prevention-system",
+      "term": "Intrusion prevention system",
+      "definition": "An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations.",
+      "category": "security",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Intrusion_prevention_system"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "antivirus-software",
+      "term": "Antivirus software",
+      "definition": "Antivirus software (abbreviated to AV software), also known as anti-malware, is software intended to prevent, detect, and remove malware.",
+      "category": "security",
+      "subcategory": "endpoint",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Antivirus_software"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "oauth",
+      "term": "OAuth",
+      "definition": "OAuth (version 1: RFC-5849, version 2: RFC-6749; sometimes incorrectly extended to open authorization) is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the…",
+      "category": "security",
+      "subcategory": "framework",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/OAuth"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "saml",
+      "term": "SAML",
+      "definition": "Security Assertion Markup Language (SAML, pronounced SAM-el, ) is an open standard for exchanging authentication and authorization data between parties, in particular, between an identity provider and a service provider.",
+      "category": "security",
+      "subcategory": "standard",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SAML"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "certificate-authority",
+      "term": "Certificate authority",
+      "definition": "In cryptography, a certificate authority or certification authority (CA) is an entity that stores, signs, and issues digital certificates.",
+      "category": "security",
+      "subcategory": "identity",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Certificate_authority"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "digital-signature",
+      "term": "Digital signature",
+      "definition": "A digital signature is a mathematical scheme for verifying the authenticity of digital messages or documents.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Digital_signature"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "hash-function",
+      "term": "Hash function",
+      "definition": "A hash function is any function that can be used to map data of arbitrary size to fixed-size values, though there are some hash functions that support variable-length output.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hash_function"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "vulnerability",
+      "term": "Vulnerability (computing)",
+      "definition": "In computer security, a vulnerability is a flaw or weakness in a system's design, implementation, or management that can be exploited by a malicious actor to compromise its security.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vulnerability_%28computing%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "penetration-test",
+      "term": "Penetration test",
+      "definition": "A penetration test, colloquially known as a pentest, is an authorized simulated cyberattack on a computer system, performed live to evaluate the security of the system.",
+      "category": "security",
+      "subcategory": "testing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Penetration_test"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "security-information-and-event-management",
+      "term": "Security information and event management",
+      "definition": "Security information and event management (SIEM) is a field within computer security that combines security information management (SIM) and security event management (SEM) to enable real-time analysis of security alerts generated by applications and network hardware.",
+      "category": "security",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Security_information_and_event_management"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "threat-model",
+      "term": "Threat model",
+      "definition": "Threat modeling is a process by which potential threats, such as structural vulnerabilities or the absence of appropriate safeguards, can be identified and enumerated, and countermeasures or controls prioritized.",
+      "category": "security",
+      "subcategory": "process",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Threat_model"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "reverse-proxy",
+      "term": "Reverse proxy",
+      "definition": "In computer networks, a reverse proxy or surrogate server is a proxy server that appears to any client to be an ordinary web server, but in reality merely acts as an intermediary that forwards the client's requests to one or more ordinary web servers.",
+      "category": "infrastructure",
+      "subcategory": "networking",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reverse_proxy"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "content-delivery-network",
+      "term": "Content delivery network",
+      "definition": "A content delivery network (CDN) or content distribution network is a geographically distributed network of proxy servers and corresponding data centers.",
+      "category": "infrastructure",
+      "subcategory": "networking",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Content_delivery_network"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "api-gateway",
+      "term": "API gateway",
+      "definition": "API management is the process of creating and publishing web application programming interfaces (APIs), enforcing their usage policies, controlling access, nurturing the subscriber community, collecting and analyzing usage statistics, and reporting on performance.",
+      "category": "infrastructure",
+      "subcategory": "integration",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/API_gateway"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "serverless-computing",
+      "term": "Serverless computing",
+      "definition": "Serverless computing is \"a cloud service category where the customer can use different cloud capability types without the customer having to provision, deploy and manage either hardware or software resources, other than providing customer application code or providing customer data.",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Serverless_computing"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "microservices",
+      "term": "Microservices",
+      "definition": "In software engineering, a microservice architecture is an architectural pattern that organizes an application into a collection of loosely coupled, fine-grained services that communicate through lightweight protocols.",
+      "category": "infrastructure",
+      "subcategory": "architecture",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Microservices"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "sql",
+      "term": "SQL",
+      "definition": "Structured Query Language (SQL) (pronounced S-Q-L; or alternatively as \"sequel\") is a domain-specific language used to manage data, especially in a relational database management system (RDBMS).",
+      "category": "programming",
+      "subcategory": "database",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SQL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "nosql",
+      "term": "NoSQL",
+      "definition": "NoSQL (a colloquial title that became formal, meaning \"not only SQL\" or \"non-relational\") refers to a type of database design that stores and retrieves data differently from the traditional table-based structure of relational databases.",
+      "category": "programming",
+      "subcategory": "database",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NoSQL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "web-scraping",
+      "term": "Web scraping",
+      "definition": "Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites.",
+      "category": "programming",
+      "subcategory": "technique",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Web_scraping"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "algorithm",
+      "term": "Algorithm",
+      "definition": "In mathematics and computer science, an algorithm is any well-defined set of instructions that when followed terminates after a finite number of steps that comprise a solution to a given computational problem.",
+      "category": "programming",
+      "subcategory": "computer science",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Algorithm"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "ethernet",
+      "term": "Ethernet",
+      "definition": "Ethernet ( EE-thər-net) is a family of wired computer networking standards designed for (but not limited to) local area networks (LAN), access networks, and metropolitan area networks (MAN).",
+      "category": "networking",
+      "subcategory": "data link",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ethernet"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wi-fi",
+      "term": "Wi-Fi",
+      "definition": "Wi-Fi is a family of wireless network protocols based on the IEEE 802.11 family of standards, which are commonly used for local area networking of devices and Internet access, allowing nearby digital devices to exchange data by radio waves.",
+      "category": "networking",
+      "subcategory": "wireless",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wi-Fi"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wireless-application-protocol",
+      "term": "Wireless Application Protocol",
+      "definition": "Wireless Application Protocol (WAP) is an obsolete technical standard for accessing information over a mobile cellular network.",
+      "category": "networking",
+      "subcategory": "mobile",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wireless_Application_Protocol"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "rsa",
+      "term": "RSA (cryptosystem)",
+      "definition": "The RSA (Rivest–Shamir–Adleman) cryptosystem is a family of public-key cryptosystems (one of the oldest), widely used for secure data transmission.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "sha-2",
+      "term": "SHA-2",
+      "definition": "SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designed by the United States National Security Agency (NSA) and first published in 2001.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SHA-2"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "json-web-token",
+      "term": "JSON Web Token",
+      "definition": "JSON Web Token (JWT, suggested pronunciation , same as the word \"jot\") is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims.",
+      "category": "security",
+      "subcategory": "standard",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/JSON_Web_Token"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "gnu-privacy-guard",
+      "term": "GNU Privacy Guard",
+      "definition": "GNU Privacy Guard (GnuPG or GPG) is a free-software replacement for Symantec's cryptographic software suite PGP.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "openssl",
+      "term": "OpenSSL",
+      "definition": "OpenSSL is a software library for applications that provide secure communications over computer networks against eavesdropping, and identify the party at the other end.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/OpenSSL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "nmap",
+      "term": "Nmap",
+      "definition": "Nmap (Network Mapper) is a network scanner created by Gordon Lyon (also known by his pseudonym Fyodor Vaskovich).",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nmap"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "wireshark",
+      "term": "Wireshark",
+      "definition": "Wireshark is free and open-source packet analyzer software.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wireshark"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "snort",
+      "term": "Snort (software)",
+      "definition": "Snort is a network intrusion detection system (IDS) and intrusion prevention system (IPS) created in 1998 by Martin Roesch, founder and former CTO of Sourcefire.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Snort_%28software%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "server-side-request-forgery",
+      "term": "Server-side request forgery",
+      "definition": "Server-side request forgery (SSRF) is a computer security vulnerability that enables an attacker to send requests from a vulnerable server to internal or external systems or the server itself.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Server-side_request_forgery"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "arbitrary-code-execution",
+      "term": "Arbitrary code execution",
+      "definition": "In computer security, arbitrary code execution (ACE) is an attacker's ability to run any commands or code of the attacker's choice on a target machine or in a target process.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arbitrary_code_execution"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "privilege-escalation",
+      "term": "Privilege escalation",
+      "definition": "Privilege escalation is the act of exploiting a bug, a design flaw, or a configuration oversight in an operating system or software application to gain elevated access to resources that are normally protected from an application or user.",
+      "category": "security",
+      "subcategory": "vulnerability",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Privilege_escalation"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "distributed-denial-of-service-attack",
+      "term": "Distributed denial-of-service attack",
+      "definition": "In computing, a denial-of-service attack (DoS attack doss) is a cyberattack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a network.",
+      "category": "security",
+      "subcategory": "threat",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Distributed_denial-of-service_attack"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "python",
+      "term": "Python (programming language)",
+      "definition": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Python_%28programming_language%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "javascript",
+      "term": "JavaScript",
+      "definition": "JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/JavaScript"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "git",
+      "term": "Git (software)",
+      "definition": "Git is a distributed version control software system that is capable of managing versions of source code or data.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Git_%28software%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "nginx",
+      "term": "Nginx",
+      "definition": "nginx (pronounced \"engine x\" EN-jin-EKS, stylized as NGINX) is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nginx"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "redis",
+      "term": "Redis",
+      "definition": "Redis (; Remote Dictionary Server) is an in-memory key–value database, used as a distributed cache and message broker, with optional durability.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Redis"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "postgresql",
+      "term": "PostgreSQL",
+      "definition": "PostgreSQL ( POHST-gres-kew-EL), also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.",
+      "category": "programming",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/PostgreSQL"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "api-key",
+      "term": "API key",
+      "definition": "An application programming interface (API) key is a secret unique identifier used to authenticate and authorize a user, developer, or calling program to an API.",
+      "category": "programming",
+      "subcategory": "credential",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/API_key"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "http-2",
+      "term": "HTTP/2",
+      "definition": "HTTP/2 (originally named HTTP/2.0) is a major revision of the HTTP network protocol used by the World Wide Web.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/HTTP/2"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "http-3",
+      "term": "HTTP/3",
+      "definition": "HTTP/3 is the third major version of the Hypertext Transfer Protocol used to exchange information on the World Wide Web, complementing the widely deployed HTTP/1.1 and HTTP/2.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/HTTP/3"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "port",
+      "term": "Port (computer networking)",
+      "definition": "In computer networking, a port is a communication endpoint.",
+      "category": "networking",
+      "subcategory": "port",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Port_%28computer_networking%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "maximum-transmission-unit",
+      "term": "Maximum transmission unit",
+      "definition": "In computer networking, the maximum transmission unit (MTU) is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction.",
+      "category": "networking",
+      "subcategory": "performance",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Maximum_transmission_unit"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "icmp",
+      "term": "ICMP",
+      "definition": "The Internet Control Message Protocol (ICMP) is a supporting protocol in the Internet protocol suite.",
+      "category": "networking",
+      "subcategory": "transport",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/ICMP"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "dhcp",
+      "term": "DHCP",
+      "definition": "The Dynamic Host Configuration Protocol (DHCP) is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/DHCP"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "ssh",
+      "term": "SSH",
+      "definition": "The Secure Shell Protocol (SSH Protocol) is a cryptographic network protocol for operating network services securely over an unsecured network.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SSH"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "telnet",
+      "term": "Telnet",
+      "definition": "Telnet (sometimes stylized TELNET) is a client-server application protocol that provides access to virtual terminals of remote systems on local area networks or the Internet.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Telnet"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "ftp",
+      "term": "FTP",
+      "definition": "The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client over a computer network.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/FTP"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "snmp",
+      "term": "SNMP",
+      "definition": "Simple Network Management Protocol (SNMP) is an Internet Standard protocol for collecting and organizing information about managed devices on IP networks and for modifying that information to change device behavior.",
+      "category": "networking",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SNMP"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "netflow",
+      "term": "NetFlow",
+      "definition": "NetFlow is a feature that was introduced on Cisco routers around 1996 that provides the ability to collect IP network traffic as it enters or exits an interface.",
+      "category": "networking",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/NetFlow"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "cvss",
+      "term": "CVSS",
+      "definition": "The Common Vulnerability Scoring System (CVSS) is a framework for rating the severity of computer system vulnerabilities.",
+      "category": "security",
+      "subcategory": "scoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/CVSS"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "vulnerability-scanner",
+      "term": "Vulnerability scanner",
+      "definition": "A vulnerability scanner is a computer program designed to assess computers, networks or applications for known weaknesses.",
+      "category": "security",
+      "subcategory": "testing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vulnerability_scanner"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "siem",
+      "term": "SIEM",
+      "definition": "Security information and event management (SIEM) is a field within computer security that combines security information management (SIM) and security event management (SEM) to enable real-time analysis of security alerts generated by applications and network hardware.",
+      "category": "security",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/SIEM"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "security-operations-center",
+      "term": "Security operations center",
+      "definition": "A security operations center (SOC) is responsible for protecting an organization against threats.",
+      "category": "security",
+      "subcategory": "team",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Security_operations_center"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "red-team",
+      "term": "Red team",
+      "definition": "A red team is a group that simulates an adversary, attempts a physical or digital intrusion against an organization at the direction of that organization, then reports back so that the organization can improve their defenses.",
+      "category": "security",
+      "subcategory": "testing",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Red_team"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "incident-response",
+      "term": "Incident response",
+      "definition": "An incident is an event that could lead to loss of, or disruption to, an organization's operations, services, or functions.",
+      "category": "security",
+      "subcategory": "process",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Incident_response"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "threat-hunting",
+      "term": "Threat hunting",
+      "definition": "In information security, threat hunting is the process of proactively searching for threats against computer systems in order to protect them.",
+      "category": "security",
+      "subcategory": "process",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Threat_hunting"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "data-exfiltration",
+      "term": "Data exfiltration",
+      "definition": "Data exfiltration occurs when malware and/or a malicious actor carries out an unauthorized data transfer from a computer.",
+      "category": "security",
+      "subcategory": "attack",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Data_exfiltration"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "lateral-movement",
+      "term": "Lateral movement",
+      "definition": "Lateral movements or lateral flexions within equestrianism, have a specific meaning, used to refer to movements made by a horse where the animal is moving in a direction other than straight forward.",
+      "category": "security",
+      "subcategory": "tactic",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lateral_movement"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "command-and-control",
+      "term": "Command and control",
+      "definition": "Command and control (abbr.",
+      "category": "security",
+      "subcategory": "tactic",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Command_and_control"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "endpoint-detection-and-response",
+      "term": "Endpoint detection and response",
+      "definition": "Endpoint detection and response (EDR), also known as endpoint threat detection and response (ETDR), is a cybersecurity technology that continually monitors an \"endpoint\" (e.g.",
+      "category": "security",
+      "subcategory": "tool",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Endpoint_detection_and_response"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "code-signing",
+      "term": "Code signing",
+      "definition": "Code signing is the process of digitally signing executables and scripts to confirm the software author and guarantee that the code has not been altered or corrupted since it was signed.",
+      "category": "security",
+      "subcategory": "cryptography",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Code_signing"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "virtual-machine",
+      "term": "Virtual machine",
+      "definition": "In computing, a virtual machine (VM) is the virtualization or emulation of a computer system.",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Virtual_machine"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "platform-as-a-service",
+      "term": "Platform as a service",
+      "definition": "Platform as a service (PaaS) or application platform as a service (aPaaS) or platform-based service is a cloud computing service model where users provision, instantiate, run and manage a modular bundle of a computing platform and applications, without the complexity of building and maintaining the…",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Platform_as_a_service"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "infrastructure-as-a-service",
+      "term": "Infrastructure as a service",
+      "definition": "Infrastructure as a service (IaaS) is a cloud computing service model where a cloud services vendor provides computing resources such as storage, network, servers, and virtualization (which emulates computer hardware).",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Infrastructure_as_a_service"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "software-as-a-service",
+      "term": "Software as a service",
+      "definition": "Software as a service (SaaS ) is a cloud computing service model in which a provider delivers application software to clients while managing the required physical and software resources.",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Software_as_a_service"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "ansible",
+      "term": "Ansible (software)",
+      "definition": "Ansible is a suite of software tools that enables infrastructure as code.",
+      "category": "infrastructure",
+      "subcategory": "provisioning",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ansible_%28software%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "prometheus",
+      "term": "Prometheus",
+      "definition": "In Greek mythology, Prometheus (; Ancient Greek: Προμηθεύς [promɛːtʰěu̯s]) is a Titan who is responsible for creating and aiding humanity in its earliest days.",
+      "category": "infrastructure",
+      "subcategory": "monitoring",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prometheus"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "c",
+      "term": "C (programming language)",
+      "definition": "C is a general-purpose programming language created in 1972 by Dennis Ritchie.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/C_%28programming_language%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "go",
+      "term": "Go (programming language)",
+      "definition": "Go (often referred to as Golang) is a high-level, general-purpose programming language that is statically typed and compiled.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Go_%28programming_language%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "rust",
+      "term": "Rust (programming language)",
+      "definition": "Rust is a general-purpose programming language that emphasizes performance, type safety, concurrency, and memory safety.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rust_%28programming_language%29"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "typescript",
+      "term": "TypeScript",
+      "definition": "TypeScript (TS) is a high-level programming language that adds static typing with optional type annotations to JavaScript.",
+      "category": "programming",
+      "subcategory": "language",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/TypeScript"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "elasticsearch",
+      "term": "Elasticsearch",
+      "definition": "Elasticsearch is a source-available search engine developed by Elastic.",
+      "category": "programming",
+      "subcategory": "search",
+      "aliases": [],
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Elasticsearch"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "arp",
+      "term": "ARP",
+      "aliases": [
+        "Address Resolution Protocol"
+      ],
+      "definition": "The Address Resolution Protocol (ARP) is a communication protocol for discovering the link layer address, such as a MAC address, associated with an internet layer address, typically an IPv4 address.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Address_Resolution_Protocol"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "sip",
+      "term": "SIP",
+      "aliases": [
+        "Session Initiation Protocol"
+      ],
+      "definition": "The Session Initiation Protocol (SIP) is a signaling protocol used for initiating, maintaining, modifying, and terminating communication sessions that involve multimedia elements such as voice, video, and messaging.",
+      "category": "networking",
+      "subcategory": "protocol",
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Session_Initiation_Protocol"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "cve",
+      "term": "CVE",
+      "aliases": [
+        "Common Vulnerabilities and Exposures"
+      ],
+      "definition": "The Common Vulnerabilities and Exposures (CVE) system, originally Common Vulnerability Enumeration, provides a reference method for publicly known information-security vulnerabilities and exposures.",
+      "category": "security",
+      "subcategory": "identifier",
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures"
+      ],
+      "added_at": "2026-10-23"
+    },
+    {
+      "id": "terraform",
+      "term": "Terraform",
+      "aliases": [
+        "Terraform (software)"
+      ],
+      "definition": "Terraform is an infrastructure-as-code software tool created by HashiCorp.",
+      "category": "infrastructure",
+      "subcategory": "cloud",
+      "related": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Terraform_%28software%29"
       ],
       "added_at": "2026-10-23"
     }
